@@ -1,3 +1,5 @@
+#a simple webapp to retrieve random facts and display them in browser
+
 import json
 import requests
 from pywebio.input import *
