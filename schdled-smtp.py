@@ -11,7 +11,7 @@ EMAIL_ADDRESS = ''  # Sender's email
 EMAIL_PASSWORD = ''  # Sender's email password
 
 # Email content setup
-RECIPIENT_EMAIL = 'commonimperative@gmail.com'  # Recipient's email
+RECIPIENT_EMAIL = '@gmail.com'  # Recipient's email
 SUBJECT = 'MobileIPS Daily Report'
 BODY = 'This is your daily report.\n\nBest Regards,\nYour Automated System'
 
