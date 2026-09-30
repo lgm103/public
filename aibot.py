@@ -13,14 +13,14 @@ client=OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 #	model="gpt-4o-mini",
 #	prompt="Write a short story about a troll.",
 #	max_tokens=100,
-#	temperature=2,
+#	temperature=3,
 #)
 
 #print(completion.choices[0].text)
 
 
 stream= client.chat.completions.create(
-	model = "gpt-4o-mini",
+	model = "",
 	messages = [{
 			"role": "user", 
 		     	"content": "Generate python code to draw a pyramid",
