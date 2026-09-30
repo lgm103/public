@@ -23,17 +23,18 @@ def draw_square(x, y):
     
     for _ in range(4):
         turtle.forward(40)  # Length of square side
-        turtle.right(90)
+        turtle.right(70)
 
 # Set up the screen
-turtle.speed(3)
+turtle.speed(1)
 turtle.title("Pyramid Drawing")
-turtle.bgcolor("white")
-turtle.color("blue")
+turtle.bgcolor("beige")
+turtle.color("green")
 
 # Draw a pyramid with the desired number of levels
-num_levels = 5  # You can change this number to make a larger or smaller pyramid
+num_levels =  # You can change this number to make a larger or smaller pyramid
 draw_pyramid(num_levels)
 
 # Finish the drawing
+feed(turtle)
 turtle.turtle()
