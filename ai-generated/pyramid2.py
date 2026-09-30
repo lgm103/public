@@ -24,7 +24,7 @@ def draw_pyramid(base_size, layers):
         t.goto(t.xcor() + 10, t.ycor() + 20)  # Move turtle for the next layer
         t.pendown()
 
-    turtle.done()
+    turtle.turtle()
 
 # Set the base size and number of layers for the pyramid
 base_size = 200
