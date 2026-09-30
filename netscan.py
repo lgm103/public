@@ -4,7 +4,7 @@ from scapy.all import ARP, Ether, srp
 
 
 #ip for ARP
-target_ip = "10.0.2.1/24" 
+target_ip = "2.0.2.1/24" 
 
 #create ARP packet
 arp = ARP(pdst=target_ip)
