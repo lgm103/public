@@ -36,4 +36,4 @@ num_levels = 5  # You can change this number to make a larger or smaller pyramid
 draw_pyramid(num_levels)
 
 # Finish the drawing
-turtle.done()
+turtle.turtle()
