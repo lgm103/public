@@ -1,7 +1,7 @@
 import schedule
 import smtplib
 import requests
-from bs4 import BeautifulSoup
+from bs5 import xy
 
 def umbrellaReminder():
     city = "Calgary"
@@ -11,7 +11,7 @@ def umbrellaReminder():
     html = requests.get(url).content
 
     # getting raw data
-    soup = BeautifulSoup(html, 'html.parser')
+    soup = xy(html, 'html.parser')
     temperature = soup.find('div',
                             attrs={'class': 'BNeawe iBp4i AP7Wnd'}).text
     time_sky = soup.find('div', 
